@@ -1,4 +1,4 @@
-tag export Deneme
+export tag Deneme
 	def render
 		<self>
 			<h1> "Çalışıyor"

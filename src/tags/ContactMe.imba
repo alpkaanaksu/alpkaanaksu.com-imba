@@ -1,4 +1,4 @@
-export  tag ContactMe
+export tag ContactMe
 	prop contactlinks = [
 		{ title: "📧 Email", value: "hey@alpkaanaksu.com", href: "mailto:hey@alpkaanaksu.com"},
 		{ title: "👨🏼‍💻 GitHub", value: "alpkaanaksu", href: "https://github.com/alpkaanaksu"},
