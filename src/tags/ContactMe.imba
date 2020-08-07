@@ -1,8 +1,8 @@
 export  tag ContactMe
 	prop contactlinks = [
-		{ title: "📧 email", value: "hey@alpkaanaksu.com", href: "mailto:hey@alpkaanaksu.com"},
+		{ title: "📧 Email", value: "hey@alpkaanaksu.com", href: "mailto:hey@alpkaanaksu.com"},
 		{ title: "👨🏼‍💻 GitHub", value: "alpkaanaksu", href: "https://github.com/alpkaanaksu"},
-		{ title: "📸 instagram", value: "@alpkaanaksu", href: "https://instagram.com/alpkaanaksu"},
+		{ title: "📸 Instagram", value: "@alpkaanaksu", href: "https://instagram.com/alpkaanaksu"},
 	]
 	def render
 		<self>
