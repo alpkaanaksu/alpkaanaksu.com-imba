@@ -20,7 +20,6 @@ export tag Homepage
 							<div[p: 16px]>
 								<h3[m: 0 0 0 0.2rem]> contactlink.title
 								<a.link-style href=contactlink.href> contactlink.value
-			<a href="/Deneme"> "click"
 	css &
 		bg:white ff:sans
 		m: 0 auto

@@ -4,7 +4,7 @@ import {Deneme} from './tags/Deneme'
 import {Footer} from './tags/Footer'
 
 global css @root, body
-	ff: sans
+	ff: "roboto"
 	1radius: 5px
 	p:0	m:0
 	box-sizing: border-box
