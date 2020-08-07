@@ -5,7 +5,7 @@ export tag Header
 	def render
 		<self>
 			<header>
-				<h1[m:0 fs:24pt]> "Alp Kaan's Website"
+				<h1[m:0 fs:20pt]> "Alp Kaan's Website"
 				<div.flex[d:inline-block m:0]>
 					for navlink in navlinks
 						<a[ml: 16px].link-style href=navlink.href> navlink.title
