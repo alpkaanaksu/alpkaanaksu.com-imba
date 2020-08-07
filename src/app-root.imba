@@ -1,7 +1,7 @@
 import {Header} from './tags/Header'
 import {Homepage} from './tags/Homepage'
 import {Deneme} from './tags/Deneme'
-import {Footer} from '.tags/Footer'
+import {Footer} from './tags/Footer'
 
 global css @root, body
 	ff: sans
@@ -35,5 +35,4 @@ tag app-root
 					<Deneme>
 				else
 					<Homepage>
-			<Footer>
 imba.mount <app-root>

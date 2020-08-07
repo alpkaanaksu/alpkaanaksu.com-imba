@@ -1,4 +1,5 @@
-export tag Footer
+export tag akaFooter
 	def render
 		<self>
-			<p> "made by Alp Kaan Aksu"
+			<footer>
+				<p> "made by Alp Kaan Aksu"
