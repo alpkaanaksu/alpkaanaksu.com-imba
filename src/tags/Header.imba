@@ -1,7 +1,8 @@
 export tag Header
 	def render
 		<self>
-			<h1> "Alp Kaan's Website"
+			<header[pb: 16px mb: 1rem ai: center]>
+				<h1> "Alp Kaan's Website"
 	css h1
 		bdb: 2px solid lightgray
 		ff: sans

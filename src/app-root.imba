@@ -22,11 +22,15 @@ tag app-root
 		ta:center
 		bg:white
 		min-height: 100vh
+	def page
+		window.location.pathname
 	def render
 		<self%app>
-			<header[pb: 16px mb: 1rem ai: center]>
-				<Header>
+			<Header>
 			<main[p: 0 10%]>
-				<Homepage>
+				if page().includes('Deneme')
+					<Deneme>
+				else
+					<Homepage>
 
 imba.mount <app-root>
