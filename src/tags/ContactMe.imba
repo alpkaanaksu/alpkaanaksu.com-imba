@@ -12,13 +12,14 @@ export  tag ContactMe
 					for contactlink in contactlinks
 						<div[p: 16px]>
 							<h3[m: 0 0 0 0.2rem]> contactlink.title
-							<a href=contactlink.href> contactlink.value
+							<a.link-style href=contactlink.href> contactlink.value
 	css &
 		d: grid
 		jc: center
+		m: 0
 	css .contactBox
 		m: 0 auto ai: center
-		bg:white ff:sans shadow: 0 0 8px #ccc
+		bg:white ff:sans shadow: 0 0 5px #ccc
 		min-width:300px br:8 p: 16px
 		d: inline-block
 	css	.contactLinks

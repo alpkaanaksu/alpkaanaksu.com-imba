@@ -6,13 +6,13 @@ global css @root, body
 	1radius: 5px
 	p:0	m:0
 	box-sizing: border-box
-global css a
+global css .link-style
 	c: black
 	td: none
 	m: 0
 	bdb: 0.2rem solid #0ad48b
 	transition-duration: 0.3s
-global css a@hover
+global css .link-style@hover
 	c: #0ad48b
 	td: none
 	bdb: 0.1rem solid #0ad48b
@@ -25,8 +25,10 @@ tag app-root
 		min-height: 100vh
 	def render
 		<self%app>
-			<Header>
-			<Page>
+			<header[pb: 16px mb: 1rem ai: center]>
+				<Header>
+			<main[p: 0 10%]>
+				<Page>
 			<ContactMe>
 
 imba.mount <app-root>
