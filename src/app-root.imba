@@ -29,6 +29,6 @@ tag app-root
 				<Header>
 			<main[p: 0 10%]>
 				<Page>
-			<ContactMe>
+				<ContactMe>
 
 imba.mount <app-root>
