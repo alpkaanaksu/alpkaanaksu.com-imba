@@ -1,6 +1,5 @@
 import {Header} from './tags/Header'
-import {Page} from './tags/Page'
-import {ContactMe} from './tags/ContactMe'
+import {Homepage} from './tags/Homepage'
 
 global css @root, body
 	1radius: 5px
@@ -28,7 +27,6 @@ tag app-root
 			<header[pb: 16px mb: 1rem ai: center]>
 				<Header>
 			<main[p: 0 10%]>
-				<Page>
-				<ContactMe>
+				<Homepage>
 
 imba.mount <app-root>
