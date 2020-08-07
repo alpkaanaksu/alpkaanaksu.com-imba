@@ -20,7 +20,7 @@ export  tag ContactMe
 	css .contactBox
 		m: 0 auto ai: center
 		bg:white ff:sans shadow: 0 0 5px #ccc
-		min-width:300px br:8 p: 16px
+		br:8 p: 16px
 		d: inline-block
 	css	.contactLinks
 		display:flex fld:row jc: center
