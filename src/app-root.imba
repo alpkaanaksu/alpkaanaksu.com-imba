@@ -35,4 +35,5 @@ tag app-root
 					<Deneme>
 				else
 					<Homepage>
+			<Footer>
 imba.mount <app-root>

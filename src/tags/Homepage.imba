@@ -31,7 +31,7 @@ export tag Homepage
 	css .school-link
 		bd: #ffe500 solid 1px
 		br: 100px
-		p: 0 10px 0.2rem 10px
+		p: 0.2rem 10px
 		c: black
 		td: none
 		fw: bold
