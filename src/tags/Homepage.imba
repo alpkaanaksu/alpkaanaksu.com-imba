@@ -20,6 +20,7 @@ export tag Homepage
 							<div[p: 16px]>
 								<h3[m: 0 0 0 0.2rem]> contactlink.title
 								<a.link-style href=contactlink.href> contactlink.value
+			<p> "Support me on {<a[bg: #f96854 radius: 100px p: 0.2rem 10px td: none c: white fw: bold transition-duration: 0.3s bs@hover: 0 0 5px #ccc] href="https://www.patreon.com/alpkaanaksu"> "Patreon"}"
 	css &
 		bg:white ff:sans
 		m: 0 auto
