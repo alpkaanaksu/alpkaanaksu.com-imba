@@ -1,6 +1,7 @@
 import {Header} from './tags/Header'
 import {Homepage} from './tags/Homepage'
 import {Deneme} from './tags/Deneme'
+import {DownloadsPage} from './tags/DownloadsPage'
 import {Footer} from './tags/Footer'
 
 global css @root, body
@@ -33,6 +34,8 @@ tag app-root
 			<main[p: 0 10%]>
 				if page().includes('Deneme')
 					<Deneme>
+				elif page!.includes('Download')
+					<DownloadsPage>
 				else
 					<Homepage>
 imba.mount <app-root>
